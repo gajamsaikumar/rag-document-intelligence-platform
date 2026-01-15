@@ -54,3 +54,4 @@ Businesses often receive numerous reports or invoices from global vendors, which
 2. FAISS is used for efficient retrieval  
 3. Relevant document sections are passed to LLMs via a RAG pipeline  
 4. Users can interact, compare, and query documents based on context
+
