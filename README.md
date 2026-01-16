@@ -13,13 +13,13 @@ Businesses often receive numerous reports or invoices from global vendors, which
 - All document services are restricted to authenticated users
 
 ### Document Analysis
-- Upload a single PDF to extract insights  
+- Upload a single Document to extract insights  
 - Provides detailed information from the document content
 
 ![Document Analysis](doc_analysis.png)
 
 ### Document Comparison
-- Upload two PDFs to view differences side-by-side  
+- Upload two Documents to view differences side-by-side  
 - Useful for tracking changes across vendor reports or invoices
 
 ![Document Compare](doc_compare.png)
@@ -31,7 +31,7 @@ Businesses often receive numerous reports or invoices from global vendors, which
 ![Single Document Chat](doc_chat.png)
 
 ### Multi-Document Chat
-- Upload multiple PDFs and query across all documents  
+- Upload multiple Documents and query across all documents  
 - Enables comprehensive analysis from multiple sources
 
 ![Multi-Document Chat](doc_chats.png)
