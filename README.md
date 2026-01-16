@@ -16,25 +16,25 @@ Businesses often receive numerous reports or invoices from global vendors, which
 - Upload a single PDF to extract insights  
 - Provides detailed information from the document content
 
-![Document Analysis](doc_analysis.PNG)
+![Document Analysis](doc_analysis.png)
 
 ### Document Comparison
 - Upload two PDFs to view differences side-by-side  
 - Useful for tracking changes across vendor reports or invoices
 
-![Document Compare](doc_compare.PNG)
+![Document Compare](doc_compare.png)
 
 ### Single Document Chat
 - Query a single document using natural language  
 - System returns relevant answers based on the document's content
 
-![Single Document Chat](doc_chat.PNG)
+![Single Document Chat](doc_chat.png)
 
 ### Multi-Document Chat
 - Upload multiple PDFs and query across all documents  
 - Enables comprehensive analysis from multiple sources
 
-![Multi-Document Chat](doc_chats.PNG)
+![Multi-Document Chat](doc_chats.png)
 
 ## Technologies
 - Python  
