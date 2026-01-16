@@ -34,7 +34,7 @@ Businesses often receive numerous reports or invoices from global vendors, which
 - Upload multiple PDFs and query across all documents  
 - Enables comprehensive analysis from multiple sources
 
-![Multi-Document Chat](doc_chat.PNG)
+![Multi-Document Chat](doc_chats.PNG)
 
 ## Technologies
 - Python  
@@ -54,4 +54,43 @@ Businesses often receive numerous reports or invoices from global vendors, which
 2. FAISS is used for efficient retrieval  
 3. Relevant document sections are passed to LLMs via a RAG pipeline  
 4. Users can interact, compare, and query documents based on context
+
+## Installation
+
+1. **Clone the repository**:
+
+   git clone https://github.com/gajamsaikumar/document_portal_RAG.git
+
+2. **Create the virtual environment**:
+
+    conda create -p env python=3.10 -y
+
+3. **Activate the virtual environment**:
+
+    conda activate env
+
+4. **Install the required dependencies**:
+
+    pip install -r requirements.txt
+
+**Generate API Keys**
+
+1. **Create a .env file** in your current folder.
+
+2. **Groq API Key:**
+
+    * Go to the Groq Console(https://console.groq.com/keys)
+
+    * Go to the API Keys tab.
+
+    * Click on "Create API Key" and copy the key.
+
+    * Paste the key in the .env file:
+        GROQ_API_KEY="YOUR_API_KEY_HERE"
+3. **Google API Key:**
+    * Go to Google AI Studio(https://aistudio.google.com/prompts/new_chat)
+    * Create an API key.
+    * Paste the key in the .env file:
+        GOOGLE_API_KEY="YOUR_API_KEY_HERE"
+
 
