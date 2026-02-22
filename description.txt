@@ -89,7 +89,7 @@ TO TEST THE UI FROM VSCODE:
 
 1. Configure "ECR"
     -> search for ECR and click on Elastic container Registry.
-    -> Region should be "ap-southeast-2" under "sydney" which displayed on top right of ECR.[we can select any Region]
+    -> Region should be "eu-west-2" under "sydney" which displayed on top right of ECR.[we can select any Region]
     -> click on "Create Repository".
     -> Give the name[documentportalsystem] which you have written in "aws.yaml" file under "ECR_REPOSITORY"
     -> open the "Image scanning settings - deprecated" then enable the "Scan on push".

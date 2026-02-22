@@ -23,7 +23,7 @@
 			"Sid": "Statement1",
 			"Effect": "Allow",
 			"Action": "secretsmanager:GetSecretValue",
-			"Resource": "arn:aws:secretsmanager:ap-southeast-2:471490092073:secret:apikeys-0TFwLX"
+			"Resource": "arn:aws:secretsmanager:eu-west-2:471490092073:secret:apikeys-0TFwLX"
 		}
 	]
 },
@@ -35,7 +35,7 @@
 			"Sid": "AllowSecretsManagerRead",
 			"Effect": "Allow",
 			"Action": ["secretsmanager:GetSecretValue"],
-			"Resource": "arn:aws:secretsmanager:ap-southeast-2:471490092073:secret:apikeys-0TFwLX"
+			"Resource": "arn:aws:secretsmanager:eu-west-2:471490092073:secret:apikeys-0TFwLX"
 		}
 	]
 }

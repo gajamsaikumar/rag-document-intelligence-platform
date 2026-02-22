@@ -5,7 +5,7 @@ on:
     types:
       - completed
 env:
-  AWS_REGION: ap-southeast-2
+  AWS_REGION: eu-west-2
   ECR_REPOSITORY: documentportalsystem
   ECS_SERVICE: document-portal-service
   ECS_CLUSTER: document-portal-cluster
