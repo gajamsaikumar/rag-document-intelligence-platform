@@ -101,7 +101,7 @@ Resources:
   ECSCluster:
     Type: AWS::ECS::Cluster
     Properties:
-      ClusterName: document-portal-cluster
+      ClusterName: document-rag-portal-cluster
 
   ### ECS Execution Role with Secrets + Logs
   ECSExecutionRole:
