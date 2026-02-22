@@ -23,7 +23,7 @@
 			"Sid": "Statement1",
 			"Effect": "Allow",
 			"Action": "secretsmanager:GetSecretValue",
-			"Resource": "arn:aws:secretsmanager:eu-west-2:471490092073:secret:apikeys-0TFwLX"
+			"Resource": "aarn:aws:secretsmanager:eu-west-2:841425311071:secret:document-rag-portal-hZiYWY"
 		}
 	]
 },
@@ -35,7 +35,7 @@
 			"Sid": "AllowSecretsManagerRead",
 			"Effect": "Allow",
 			"Action": ["secretsmanager:GetSecretValue"],
-			"Resource": "arn:aws:secretsmanager:eu-west-2:471490092073:secret:apikeys-0TFwLX"
+			"Resource": "arn:aws:secretsmanager:eu-west-2:841425311071:secret:document-rag-portal-hZiYWY"
 		}
 	]
 }
